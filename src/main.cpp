@@ -21,7 +21,7 @@ int blue_led = 11;   ///< Blue LED connected to digital pin 11
  */
 void setup() {
   pinMode(red_led, OUTPUT);
-  pinMode(green_led, OUTPUT);
+  pinMode(green_led, OUTPUT); 
   pinMode(blue_led, OUTPUT);
 }
 /**
